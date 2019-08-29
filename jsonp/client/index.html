@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="./index.js"></script>
+    <script>
+        jsonp(
+            'http://localhost:3000/api', {
+                username: 'lishenzghi',
+                password: '1233321'
+            }
+        ).then(res => {
+            console.log(res)
+        })
+        fetch('http://localhost:3000/api').then(res => {
+            return res.json()
+        }).then(res => {
+            console.log(res)
+        })
+
+        //ajax get
+        ajax('http://localhost:3000/api', {
+            name: "lili",
+            age: 20
+        }).then(res => {
+            console.log(res)
+        })
+
+        //ajax post
+        ajax('http://localhost:3000/postApi', {
+            name: "lili",
+            age: 20
+        }, 'POST').then(res => {
+            console.log(res)
+        })
+    </script>
+</body>
+
+</html>

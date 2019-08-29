@@ -1,0 +1,1436 @@
+2019-08-16 11:04:21,122 ERROR 13652 nodejs.TypeError: res.on is not a function
+    at axios.get.then.res (C:\Users\user\Desktop\big_egg\server\app\controller\home.js:11:17)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 13652
+hostname: DESKTOP-U7LRM2N
+
+2019-08-16 11:33:26,177 ERROR 6012 [-/::1/-/30ms GET /pa] nodejs.ReferenceError: list is not defined
+    at Promise (C:\Users\user\Desktop\big_egg\server\app\controller\pachong.js:30:21)
+    at new Promise (<anonymous>)
+    at HomeController.pa (C:\Users\user\Desktop\big_egg\server\app\controller\pachong.js:11:16)
+    at Object.callFn (C:\Users\user\Desktop\big_egg\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\user\Desktop\big_egg\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\user\Desktop\big_egg\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user\Desktop\big_egg\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user\Desktop\big_egg\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\user\Desktop\big_egg\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+
+pid: 6012
+hostname: DESKTOP-U7LRM2N
+
+2019-08-16 11:33:45,321 ERROR 6012 [-/::1/-/5ms GET /pa] nodejs.ReferenceError: list is not defined
+    at Promise (C:\Users\user\Desktop\big_egg\server\app\controller\pachong.js:30:21)
+    at new Promise (<anonymous>)
+    at HomeController.pa (C:\Users\user\Desktop\big_egg\server\app\controller\pachong.js:11:16)
+    at Object.callFn (C:\Users\user\Desktop\big_egg\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\user\Desktop\big_egg\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\user\Desktop\big_egg\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user\Desktop\big_egg\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user\Desktop\big_egg\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\user\Desktop\big_egg\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+
+pid: 6012
+hostname: DESKTOP-U7LRM2N
+
+2019-08-16 11:59:11,264 ERROR 3172 [-/::1/-/39ms POST /user/login] nodejs.ReferenceError: data is not defined
+    at UserController.login (C:\Users\user\Desktop\big_egg\server\app\controller\user.js:9:13)
+    at Object.callFn (C:\Users\user\Desktop\big_egg\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\user\Desktop\big_egg\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 3172
+hostname: DESKTOP-U7LRM2N
+
+2019-08-16 11:59:54,231 ERROR 3172 [-/::1/-/1ms POST /user/login] nodejs.ReferenceError: data is not defined
+    at UserController.login (C:\Users\user\Desktop\big_egg\server\app\controller\user.js:9:13)
+    at Object.callFn (C:\Users\user\Desktop\big_egg\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\user\Desktop\big_egg\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 3172
+hostname: DESKTOP-U7LRM2N
+
+2019-08-16 12:00:30,271 ERROR 5780 [-/::1/-/35ms POST /user/login] nodejs.ReferenceError: data is not defined
+    at UserController.login (C:\Users\user\Desktop\big_egg\server\app\controller\user.js:9:13)
+    at Object.callFn (C:\Users\user\Desktop\big_egg\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\user\Desktop\big_egg\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 5780
+hostname: DESKTOP-U7LRM2N
+
+2019-08-16 12:01:00,214 ERROR 15100 [-/::1/-/35ms POST /user/login] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'lishengzhi' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:65:19)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:54:5
+    sql: select * from user where username=lishengzhi and password=666
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'lishengzhi' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from user where username=lishengzhi and password=666"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 15100
+hostname: DESKTOP-U7LRM2N
+
+2019-08-16 12:01:45,093 ERROR 15100 [-/::1/-/5ms POST /user/login] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'lishengzhi' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:65:19)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:54:5
+    sql: select * from user where username=lishengzhi and password=666
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'lishengzhi' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from user where username=lishengzhi and password=666"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 15100
+hostname: DESKTOP-U7LRM2N
+
+2019-08-16 13:57:58,881 ERROR 15232 nodejs.ClusterClientNoResponseError: client no response in 6951207ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\user\Desktop\big_egg\server\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 15232
+hostname: DESKTOP-U7LRM2N
+
+2019-08-16 14:02:46,283 ERROR 22500 [-/::1/-/36ms POST /user/login] nodejs.TypeError: ctx.service.findUP is not a function
+    at UserController.login (C:\Users\user\Desktop\big_egg\server\app\controller\user.js:8:44)
+    at Object.callFn (C:\Users\user\Desktop\big_egg\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\user\Desktop\big_egg\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 22500
+hostname: DESKTOP-U7LRM2N
+
+2019-08-16 14:02:58,303 ERROR 22500 [-/::1/-/3ms POST /user/login] nodejs.TypeError: ctx.service.findUP is not a function
+    at UserController.login (C:\Users\user\Desktop\big_egg\server\app\controller\user.js:8:44)
+    at Object.callFn (C:\Users\user\Desktop\big_egg\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\user\Desktop\big_egg\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 22500
+hostname: DESKTOP-U7LRM2N
+
+2019-08-16 14:03:00,347 ERROR 22500 [-/::1/-/1ms POST /user/login] nodejs.TypeError: ctx.service.findUP is not a function
+    at UserController.login (C:\Users\user\Desktop\big_egg\server\app\controller\user.js:8:44)
+    at Object.callFn (C:\Users\user\Desktop\big_egg\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\user\Desktop\big_egg\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 22500
+hostname: DESKTOP-U7LRM2N
+
+2019-08-16 14:03:53,004 ERROR 16896 [-/::1/-/24ms POST /user/login] nodejs.TypeError: ctx.service.findUP is not a function
+    at UserController.login (C:\Users\user\Desktop\big_egg\server\app\controller\user.js:8:44)
+    at Object.callFn (C:\Users\user\Desktop\big_egg\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\user\Desktop\big_egg\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 16896
+hostname: DESKTOP-U7LRM2N
+
+2019-08-16 14:44:13,540 ERROR 20496 [-/::1/-/28ms POST /user/login] nodejs.TypeError: ctx.service.findUP is not a function
+    at UserController.login (C:\Users\user\Desktop\big_egg\server\app\controller\user.js:8:44)
+    at Object.callFn (C:\Users\user\Desktop\big_egg\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\user\Desktop\big_egg\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 20496
+hostname: DESKTOP-U7LRM2N
+
+2019-08-16 20:01:37,575 ERROR 26112 [-/127.0.0.1/-/62ms POST /user/registry] nodejs.TypeError: Cannot read property 'length' of undefined
+    at UserController.registry (C:\Users\user\Desktop\big_egg\server\app\controller\user.js:31:18)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 26112
+hostname: DESKTOP-U7LRM2N
+
+2019-08-16 20:02:07,814 ERROR 26112 [-/127.0.0.1/-/13ms POST /user/registry] nodejs.TypeError: Cannot read property 'length' of undefined
+    at UserController.registry (C:\Users\user\Desktop\big_egg\server\app\controller\user.js:31:18)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 26112
+hostname: DESKTOP-U7LRM2N
+
+2019-08-16 20:03:03,877 ERROR 26692 [-/127.0.0.1/-/36ms POST /user/registry] nodejs.TypeError: Cannot read property 'length' of undefined
+    at UserController.registry (C:\Users\user\Desktop\big_egg\server\app\controller\user.js:32:18)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 26692
+hostname: DESKTOP-U7LRM2N
+
+2019-08-16 20:04:15,461 ERROR 25284 [-/127.0.0.1/-/45ms POST /user/registry] nodejs.TypeError: Cannot read property 'length' of undefined
+    at UserController.registry (C:\Users\user\Desktop\big_egg\server\app\controller\user.js:32:18)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 25284
+hostname: DESKTOP-U7LRM2N
+
+2019-08-16 20:05:03,824 ERROR 27116 [-/127.0.0.1/-/40ms POST /user/registry] nodejs.TypeError: Cannot read property 'length' of undefined
+    at UserController.registry (C:\Users\user\Desktop\big_egg\server\app\controller\user.js:32:18)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 27116
+hostname: DESKTOP-U7LRM2N
+
+2019-08-16 20:05:36,896 ERROR 20720 [-/127.0.0.1/-/36ms POST /user/registry] nodejs.TypeError: result2.map is not a function
+    at UserService.add (C:\Users\user\Desktop\big_egg\server\app\service\user.js:17:17)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 20720
+hostname: DESKTOP-U7LRM2N
+
+2019-08-16 20:12:57,201 ERROR 26696 [-/127.0.0.1/-/38ms POST /user/registry] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column '阿萨德' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:65:19)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:54:5
+    sql: select * from user where username=阿萨德
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column '阿萨德' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from user where username=阿萨德"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 26696
+hostname: DESKTOP-U7LRM2N
+
+2019-08-19 16:00:03,395 ERROR 16532 nodejs.unhandledRejectionError: ER_SP_UNDECLARED_VAR: Undeclared variable: pagesize
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:65:19)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:54:5
+    sql: select * from productlist limit pagesize=0,pagecount=5
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: pagesize"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit pagesize=0,pagecount=5"
+name: "unhandledRejectionError"
+pid: 16532
+hostname: DESKTOP-U7LRM2N
+
+2019-08-19 16:01:14,063 ERROR 16532 nodejs.unhandledRejectionError: ER_SP_UNDECLARED_VAR: Undeclared variable: pagesize
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:65:19)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:54:5
+    sql: select * from productlist limit pagesize=0,pagecount=5
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: pagesize"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit pagesize=0,pagecount=5"
+name: "unhandledRejectionError"
+pid: 16532
+hostname: DESKTOP-U7LRM2N
+
+2019-08-19 16:01:15,470 ERROR 16532 nodejs.unhandledRejectionError: ER_SP_UNDECLARED_VAR: Undeclared variable: pagesize
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:65:19)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:54:5
+    sql: select * from productlist limit pagesize=0,pagecount=5
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: pagesize"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit pagesize=0,pagecount=5"
+name: "unhandledRejectionError"
+pid: 16532
+hostname: DESKTOP-U7LRM2N
+
+2019-08-19 16:27:55,834 ERROR 23724 [-/127.0.0.1/-/13ms GET /getList] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: undefined
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:65:19)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:54:5
+    sql: select * from productlist limit undefined,undefined
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: undefined"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit undefined,undefined"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 23724
+hostname: DESKTOP-U7LRM2N
+
+2019-08-19 16:28:03,716 ERROR 23724 [-/127.0.0.1/-/6ms GET /getList] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: undefined
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:65:19)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:54:5
+    sql: select * from productlist limit undefined,undefined
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: undefined"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit undefined,undefined"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 23724
+hostname: DESKTOP-U7LRM2N
+
+2019-08-19 16:31:47,093 ERROR 17320 [-/127.0.0.1/-/10ms GET /getList] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: undefined
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:65:19)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:54:5
+    sql: select * from productlist limit undefined,undefined
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: undefined"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit undefined,undefined"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 17320
+hostname: DESKTOP-U7LRM2N
+
+2019-08-19 16:32:31,236 ERROR 17320 [-/127.0.0.1/-/3ms GET /getList] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: undefined
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:65:19)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:54:5
+    sql: select * from productlist limit undefined,undefined
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: undefined"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit undefined,undefined"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 17320
+hostname: DESKTOP-U7LRM2N
+
+2019-08-19 16:33:10,876 ERROR 17320 [-/127.0.0.1/-/5ms GET /getList?pagesize=%7B%22pagesize%22:0,%22pagecount%22:5%7D] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: undefined
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:65:19)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:54:5
+    sql: select * from productlist limit undefined,undefined
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: undefined"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit undefined,undefined"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 17320
+hostname: DESKTOP-U7LRM2N
+
+2019-08-19 16:33:13,345 ERROR 17320 [-/127.0.0.1/-/5ms GET /getList?pagesize=%7B%22pagesize%22:0,%22pagecount%22:5%7D] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: undefined
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:65:19)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:54:5
+    sql: select * from productlist limit undefined,undefined
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: undefined"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit undefined,undefined"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 17320
+hostname: DESKTOP-U7LRM2N
+
+2019-08-19 16:33:26,203 ERROR 17320 [-/127.0.0.1/-/4ms GET /getList?pagesize=0&pagecount=5] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: undefined
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:65:19)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:54:5
+    sql: select * from productlist limit undefined,undefined
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: undefined"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit undefined,undefined"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 17320
+hostname: DESKTOP-U7LRM2N
+
+2019-08-19 16:34:22,996 ERROR 17320 [-/127.0.0.1/-/3ms GET /getList?pagesize=0&pagecount=5] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: undefined
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:65:19)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:54:5
+    sql: select * from productlist limit undefined,undefined
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: undefined"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit undefined,undefined"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 17320
+hostname: DESKTOP-U7LRM2N
+
+2019-08-19 16:34:57,053 ERROR 20436 [-/127.0.0.1/-/36ms GET /getList?pagesize=%7B%22pagesize%22:5,%22pagecount%22:5%7D] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{"pagesize":5,"pagecount":5},undefined' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:65:19)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:54:5
+    sql: select * from productlist limit {"pagesize":5,"pagecount":5},undefined
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{\"pagesize\":5,\"pagecount\":5},undefined' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit {\"pagesize\":5,\"pagecount\":5},undefined"
+name: "ER_PARSE_ERRORError"
+pid: 20436
+hostname: DESKTOP-U7LRM2N
+
+2019-08-19 16:35:02,707 ERROR 20436 [-/127.0.0.1/-/4ms GET /getList?pagesize=%7B%22pagesize%22:10,%22pagecount%22:5%7D] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{"pagesize":10,"pagecount":5},undefined' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:65:19)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:54:5
+    sql: select * from productlist limit {"pagesize":10,"pagecount":5},undefined
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{\"pagesize\":10,\"pagecount\":5},undefined' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit {\"pagesize\":10,\"pagecount\":5},undefined"
+name: "ER_PARSE_ERRORError"
+pid: 20436
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 11:11:56,485 ERROR 5476 [-/::1/-/20ms GET /getList] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: undefined
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:65:19)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:54:5
+    sql: select * from productlist limit undefined,undefined
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: undefined"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit undefined,undefined"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 5476
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 11:16:01,594 ERROR 22052 [-/::1/-/12ms GET /getList] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: undefined
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:65:19)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:54:5
+    sql: select * from productlist limit undefined,undefined
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: undefined"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit undefined,undefined"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 22052
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 11:16:02,631 ERROR 22052 [-/::1/-/6ms GET /getList] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: undefined
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:65:19)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:54:5
+    sql: select * from productlist limit undefined,undefined
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: undefined"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit undefined,undefined"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 22052
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 11:17:26,902 ERROR 23476 [-/::1/-/14ms GET /getList] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: undefined
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:65:19)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:54:5
+    sql: select * from productlist limit undefined,undefined
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: undefined"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit undefined,undefined"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 23476
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 11:17:32,910 ERROR 23476 [-/::1/-/7ms GET /getList] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: undefined
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:65:19)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:54:5
+    sql: select * from productlist limit undefined,undefined
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: undefined"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit undefined,undefined"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 23476
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 11:22:36,278 ERROR 11624 [-/::1/-/11ms GET /getList] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: undefined
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:65:19)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:54:5
+    sql: select * from productlist limit undefined,undefined
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: undefined"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit undefined,undefined"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 11624
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 11:23:09,951 ERROR 11624 [-/::1/-/33ms GET /getList] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: undefined
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:65:19)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:54:5
+    sql: select * from productlist limit undefined,undefined
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: undefined"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit undefined,undefined"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 11624
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 11:49:20,804 ERROR 8492 [-/::1/-/22ms GET /getList?pagesize=0&pagecount=5] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:18:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 8492
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 11:52:28,719 ERROR 13796 nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:18:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 13796
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 11:54:53,824 ERROR 20764 nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:18:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 20764
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 13:59:30,924 ERROR 18088 nodejs.ClusterClientNoResponseError: client no response in 7071222ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\user\Desktop\big_egg\server\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 18088
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 14:35:05,791 ERROR 12072 [-/::1/-/8ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:19:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 12072
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 14:35:39,133 ERROR 26336 [-/::1/-/17ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:19:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 26336
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 14:37:30,955 ERROR 26336 [-/::1/-/30ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:19:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 26336
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 14:37:32,161 ERROR 26336 [-/::1/-/26ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:19:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 26336
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 14:37:44,970 ERROR 26336 [-/::1/-/16ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:19:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 26336
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 14:37:45,761 ERROR 26336 [-/::1/-/60ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:19:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 26336
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 14:37:46,034 ERROR 26336 [-/::1/-/52ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:19:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 26336
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 14:37:46,218 ERROR 26336 [-/::1/-/19ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:19:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 26336
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 14:37:46,542 ERROR 26336 [-/::1/-/61ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:19:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 26336
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 14:37:46,813 ERROR 26336 [-/::1/-/25ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:19:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 26336
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 14:37:46,942 ERROR 26336 [-/::1/-/10ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:19:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 26336
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 14:37:47,154 ERROR 26336 [-/::1/-/23ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:19:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 26336
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 14:37:47,542 ERROR 26336 [-/::1/-/9ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:19:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 26336
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 14:37:47,722 ERROR 26336 [-/::1/-/12ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:19:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 26336
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 14:37:47,886 ERROR 26336 [-/::1/-/8ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:19:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 26336
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 14:37:48,054 ERROR 26336 [-/::1/-/8ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:19:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 26336
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 14:37:48,216 ERROR 26336 [-/::1/-/8ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:19:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 26336
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 14:37:48,359 ERROR 26336 [-/::1/-/9ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:19:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 26336
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 14:37:48,505 ERROR 26336 [-/::1/-/10ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:19:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 26336
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 14:37:48,662 ERROR 26336 [-/::1/-/8ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:19:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 26336
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 14:37:48,795 ERROR 26336 [-/::1/-/7ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:19:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 26336
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 14:37:48,964 ERROR 26336 [-/::1/-/7ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:19:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 26336
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 14:37:49,134 ERROR 26336 [-/::1/-/7ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:19:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 26336
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 14:37:49,285 ERROR 26336 [-/::1/-/7ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:19:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 26336
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 14:41:35,246 ERROR 9284 [-/::1/-/3ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:19:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 9284
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 15:59:59,665 ERROR 25780 [-/::1/-/11ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:20:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 25780
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 16:00:00,229 ERROR 25780 [-/::1/-/2ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:20:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 25780
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 16:00:00,396 ERROR 25780 [-/::1/-/2ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:20:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 25780
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 16:00:00,628 ERROR 25780 [-/::1/-/2ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:20:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 25780
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 16:00:00,793 ERROR 25780 [-/::1/-/1ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:20:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 25780
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 16:00:00,958 ERROR 25780 [-/::1/-/3ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:20:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 25780
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 16:00:01,094 ERROR 25780 [-/::1/-/3ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:20:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 25780
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 16:00:01,195 ERROR 25780 [-/::1/-/2ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:20:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 25780
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 16:00:01,341 ERROR 25780 [-/::1/-/1ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:20:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 25780
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 16:19:11,354 ERROR 19368 [-/127.0.0.1/-/9ms POST /user/login] nodejs.TypeError: Cannot destructure property `id` of 'undefined' or 'null'.
+    at UserController.login (C:\Users\user\Desktop\big_egg\server\app\controller\user.js:10:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 19368
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 16:19:49,174 ERROR 19368 [-/127.0.0.1/-/2ms POST /user/login] nodejs.TypeError: Cannot destructure property `id` of 'undefined' or 'null'.
+    at UserController.login (C:\Users\user\Desktop\big_egg\server\app\controller\user.js:10:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 19368
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 16:20:35,294 ERROR 19368 [-/127.0.0.1/-/1ms POST /user/login] nodejs.TypeError: Cannot destructure property `id` of 'undefined' or 'null'.
+    at UserController.login (C:\Users\user\Desktop\big_egg\server\app\controller\user.js:10:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 19368
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 16:20:39,205 ERROR 19368 [-/127.0.0.1/-/2ms POST /user/login] nodejs.TypeError: Cannot destructure property `id` of 'undefined' or 'null'.
+    at UserController.login (C:\Users\user\Desktop\big_egg\server\app\controller\user.js:10:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 19368
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 16:34:34,217 ERROR 19368 [-/127.0.0.1/-/2ms POST /user/login] nodejs.TypeError: Cannot destructure property `id` of 'undefined' or 'null'.
+    at UserController.login (C:\Users\user\Desktop\big_egg\server\app\controller\user.js:10:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 19368
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 16:34:43,839 ERROR 19368 [-/127.0.0.1/-/1ms POST /user/login] nodejs.TypeError: Cannot destructure property `id` of 'undefined' or 'null'.
+    at UserController.login (C:\Users\user\Desktop\big_egg\server\app\controller\user.js:10:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 19368
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 16:44:40,409 ERROR 26064 [-/127.0.0.1/-/6ms GET /getList] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\big_egg\server\app\service\user.js:20:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 26064
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 19:16:24,667 ERROR 26484 nodejs.ClusterClientNoResponseError: client no response in 4534849ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\user\Desktop\big_egg\server\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 26484
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 19:46:47,238 ERROR 3064 nodejs.ReferenceError: thia is not defined
+    at UserService.saveToken (C:\Users\user\Desktop\big_egg\server\app\service\user.js:25:24)
+    at UserController.login (C:\Users\user\Desktop\big_egg\server\app\controller\user.js:12:54)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 3064
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 19:47:41,091 ERROR 28112 nodejs.unhandledRejectionError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'updata user set token='3522ce333dade8e73462cb6d2ffa8091' where id=1' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:65:19)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:54:5
+    sql: updata user set token='3522ce333dade8e73462cb6d2ffa8091' where id=1
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'updata user set token='3522ce333dade8e73462cb6d2ffa8091' where id=1' at line 1"
+sqlState: "42000"
+index: 0
+sql: "updata user set token='3522ce333dade8e73462cb6d2ffa8091' where id=1"
+name: "unhandledRejectionError"
+pid: 28112
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 20:32:43,238 ERROR 12144 [-/127.0.0.1/-/9ms GET /getList] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: undefined
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:65:19)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:54:5
+    sql: select * from productlist limit undefined,undefined
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: undefined"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit undefined,undefined"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 12144
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 20:34:05,258 ERROR 29628 [-/127.0.0.1/-/12ms GET /getList] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: undefined
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:65:19)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:54:5
+    sql: select * from productlist limit undefined,undefined
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: undefined"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit undefined,undefined"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 29628
+hostname: DESKTOP-U7LRM2N
+
+2019-08-20 20:34:29,853 ERROR 29628 [-/127.0.0.1/-/4ms GET /getList] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: undefined
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\big_egg\server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\big_egg\server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:65:19)
+    at C:\Users\user\Desktop\big_egg\server\node_modules\co\index.js:54:5
+    sql: select * from productlist limit undefined,undefined
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: undefined"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit undefined,undefined"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 29628
+hostname: DESKTOP-U7LRM2N
+

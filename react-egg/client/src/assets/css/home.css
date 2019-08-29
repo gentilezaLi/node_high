@@ -1,0 +1,29 @@
+.home {
+    position: relative;
+}
+
+.shang {
+    position: absolute;
+    width: 100%;
+    height: calc(0.5rem*2);
+    text-align: center;
+    line-height: calc(0.5rem*2);
+    background: red;
+    top: calc(-0.5rem*2);
+}
+
+.xia {
+    position: absolute;
+    width: 100%;
+    height: calc(0.5rem*2);
+    text-align: center;
+    line-height: calc(0.5rem*2);
+    background: red;
+    bottom: calc(-0.5rem*2);
+}
+
+.home p {
+    width: 100%;
+    height: calc(2rem*2);
+    background: pink;
+}

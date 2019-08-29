@@ -1,0 +1,112 @@
+2019-08-13 16:46:34,998 ERROR 28812 [-/127.0.0.1/-/27ms POST /upload] nodejs.ENOENTError: ENOENT: no such file or directory, open 'C:\Users\user\Desktop\image_upload\server\app\public\avater\null5a460a2f596b5006.jpg'
+    at Object.openSync (fs.js:443:3)
+    at Object.writeFileSync (fs.js:1194:35)
+    at saveAvater (C:\Users\user\Desktop\image_upload\server\app\controller\user.js:8:8)
+    at UserController.upload (C:\Users\user\Desktop\image_upload\server\app\controller\user.js:16:9)
+    at Object.callFn (C:\Users\user\Desktop\image_upload\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\user\Desktop\image_upload\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\user\Desktop\image_upload\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user\Desktop\image_upload\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user\Desktop\image_upload\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\user\Desktop\image_upload\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+errno: -4058
+syscall: "open"
+code: "ENOENT"
+path: "C:\\Users\\user\\Desktop\\image_upload\\server\\app\\public\\avater\\null5a460a2f596b5006.jpg"
+name: "ENOENTError"
+pid: 28812
+hostname: DESKTOP-U7LRM2N
+
+2019-08-13 16:47:03,338 ERROR 6708 [-/127.0.0.1/-/25ms POST /upload] nodejs.ENOENTError: ENOENT: no such file or directory, open 'C:\Users\user\Desktop\image_upload\server\app\public\avater\null5a460a2f596b5006.jpg'
+    at Object.openSync (fs.js:443:3)
+    at Object.writeFileSync (fs.js:1194:35)
+    at saveAvater (C:\Users\user\Desktop\image_upload\server\app\controller\user.js:8:8)
+    at UserController.upload (C:\Users\user\Desktop\image_upload\server\app\controller\user.js:16:9)
+    at Object.callFn (C:\Users\user\Desktop\image_upload\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\user\Desktop\image_upload\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\user\Desktop\image_upload\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user\Desktop\image_upload\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user\Desktop\image_upload\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\user\Desktop\image_upload\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+errno: -4058
+syscall: "open"
+code: "ENOENT"
+path: "C:\\Users\\user\\Desktop\\image_upload\\server\\app\\public\\avater\\null5a460a2f596b5006.jpg"
+name: "ENOENTError"
+pid: 6708
+hostname: DESKTOP-U7LRM2N
+
+2019-08-13 16:47:30,571 ERROR 6708 [-/127.0.0.1/-/9ms POST /upload] nodejs.ENOENTError: ENOENT: no such file or directory, open 'C:\Users\user\Desktop\image_upload\server\app\public\avater\null5a460a2f596b5006.jpg'
+    at Object.openSync (fs.js:443:3)
+    at Object.writeFileSync (fs.js:1194:35)
+    at saveAvater (C:\Users\user\Desktop\image_upload\server\app\controller\user.js:8:8)
+    at UserController.upload (C:\Users\user\Desktop\image_upload\server\app\controller\user.js:16:9)
+    at Object.callFn (C:\Users\user\Desktop\image_upload\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\user\Desktop\image_upload\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\user\Desktop\image_upload\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user\Desktop\image_upload\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user\Desktop\image_upload\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\user\Desktop\image_upload\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+errno: -4058
+syscall: "open"
+code: "ENOENT"
+path: "C:\\Users\\user\\Desktop\\image_upload\\server\\app\\public\\avater\\null5a460a2f596b5006.jpg"
+name: "ENOENTError"
+pid: 6708
+hostname: DESKTOP-U7LRM2N
+
+2019-08-13 16:48:05,235 ERROR 6708 [-/127.0.0.1/-/6ms POST /upload] nodejs.ReferenceError: file is not defined
+    at UserController.upload (C:\Users\user\Desktop\image_upload\server\app\controller\user.js:18:21)
+    at Object.callFn (C:\Users\user\Desktop\image_upload\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\user\Desktop\image_upload\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\user\Desktop\image_upload\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user\Desktop\image_upload\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user\Desktop\image_upload\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\user\Desktop\image_upload\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\user\Desktop\image_upload\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user\Desktop\image_upload\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\user\Desktop\image_upload\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 6708
+hostname: DESKTOP-U7LRM2N
+
+2019-08-13 16:49:11,914 ERROR 14832 [-/127.0.0.1/-/30ms POST /upload] nodejs.ReferenceError: file is not defined
+    at UserController.upload (C:\Users\user\Desktop\image_upload\server\app\controller\user.js:20:21)
+    at Object.callFn (C:\Users\user\Desktop\image_upload\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\user\Desktop\image_upload\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\user\Desktop\image_upload\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user\Desktop\image_upload\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user\Desktop\image_upload\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\user\Desktop\image_upload\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\user\Desktop\image_upload\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user\Desktop\image_upload\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\user\Desktop\image_upload\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 14832
+hostname: DESKTOP-U7LRM2N
+
+2019-08-13 16:49:54,425 ERROR 26176 [-/127.0.0.1/-/24ms POST /upload] nodejs.ReferenceError: file is not defined
+    at UserController.upload (C:\Users\user\Desktop\image_upload\server\app\controller\user.js:20:21)
+    at Object.callFn (C:\Users\user\Desktop\image_upload\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\user\Desktop\image_upload\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\user\Desktop\image_upload\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user\Desktop\image_upload\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user\Desktop\image_upload\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\user\Desktop\image_upload\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\user\Desktop\image_upload\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user\Desktop\image_upload\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\user\Desktop\image_upload\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 26176
+hostname: DESKTOP-U7LRM2N
+
+2019-08-13 19:18:05,572 ERROR 13208 nodejs.ClusterClientNoResponseError: client no response in 1572759ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\user\Desktop\image_upload\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 13208
+hostname: DESKTOP-U7LRM2N
+

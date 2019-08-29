@@ -1,0 +1,30 @@
+.list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.l-h {
+    width: 100%;
+    height: calc(0.5rem*2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    border-top: solid 1px #ccc;
+}
+
+.l-h a {
+    color: black;
+}
+
+.l-h .active {
+    transform: scale(1.2);
+    background: yellow;
+}
+
+.l-c {
+    flex: 1;
+    overflow: auto;
+}

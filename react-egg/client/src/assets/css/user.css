@@ -1,0 +1,31 @@
+.user {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.u-h {
+    width: 100%;
+    height: calc(0.44rem*2);
+    border-bottom: solid 1px red;
+    display: flex;
+}
+
+.u-h a {
+    color: black;
+    width: 50%;
+    display: flex;
+    height: calc(0.44rem*2);
+    align-items: center;
+    justify-content: center;
+}
+
+.u-h .active {
+    background: rgb(22, 228, 243);
+    color: blue;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.u-c {}

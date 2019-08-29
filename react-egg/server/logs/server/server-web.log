@@ -1,0 +1,2096 @@
+2019-08-21 14:21:20,439 ERROR 28080 [-/::1/-/29ms POST /user/login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='lilili' and password='777'' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from user username='lilili' and password='777'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='lilili' and password='777'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user username='lilili' and password='777'"
+name: "ER_PARSE_ERRORError"
+pid: 28080
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 14:22:23,139 ERROR 28080 [-/::1/-/4ms POST /user/login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='lilili' and password='777'' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from user username='lilili' and password='777'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='lilili' and password='777'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user username='lilili' and password='777'"
+name: "ER_PARSE_ERRORError"
+pid: 28080
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 14:22:29,347 ERROR 31072 [-/::1/-/28ms POST /user/login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='lilili' and password='777'' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from user username='lilili' and password='777'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='lilili' and password='777'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user username='lilili' and password='777'"
+name: "ER_PARSE_ERRORError"
+pid: 31072
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 14:22:59,243 ERROR 8148 [-/::1/-/30ms POST /user/login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='lilili' and password='777'' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from user username='lilili' and password='777'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='lilili' and password='777'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user username='lilili' and password='777'"
+name: "ER_PARSE_ERRORError"
+pid: 8148
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 14:23:43,739 ERROR 5180 [-/::1/-/29ms POST /user/login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='lilili' and password='777'' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from user username='lilili' and password='777'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='lilili' and password='777'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user username='lilili' and password='777'"
+name: "ER_PARSE_ERRORError"
+pid: 5180
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 14:24:42,046 ERROR 2716 [-/::1/-/31ms POST /user/login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='lilili' and password='777'' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from user username='lilili' and password='777'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='lilili' and password='777'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user username='lilili' and password='777'"
+name: "ER_PARSE_ERRORError"
+pid: 2716
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 14:24:47,470 ERROR 5416 [-/::1/-/34ms POST /user/login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='lilili' and password='777'' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from user username='lilili' and password='777'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='lilili' and password='777'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user username='lilili' and password='777'"
+name: "ER_PARSE_ERRORError"
+pid: 5416
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 14:24:48,246 ERROR 5416 [-/::1/-/3ms POST /user/login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='lilili' and password='777'' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from user username='lilili' and password='777'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='lilili' and password='777'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user username='lilili' and password='777'"
+name: "ER_PARSE_ERRORError"
+pid: 5416
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 14:25:55,374 ERROR 5416 [-/::1/-/3ms POST /user/login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='lili' and password='777'' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from user username='lili' and password='777'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='lili' and password='777'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user username='lili' and password='777'"
+name: "ER_PARSE_ERRORError"
+pid: 5416
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 14:26:20,609 ERROR 5416 [-/::1/-/2ms POST /user/login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='lili' and password='777'' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from user username='lili' and password='777'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='lili' and password='777'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user username='lili' and password='777'"
+name: "ER_PARSE_ERRORError"
+pid: 5416
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 14:27:29,190 ERROR 5416 [-/::1/-/2ms POST /user/login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='lili' and password='777'' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from user username='lili' and password='777'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='lili' and password='777'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user username='lili' and password='777'"
+name: "ER_PARSE_ERRORError"
+pid: 5416
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 14:27:33,895 ERROR 5416 [-/::1/-/2ms POST /user/login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='lili' and password='777'' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from user username='lili' and password='777'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='lili' and password='777'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user username='lili' and password='777'"
+name: "ER_PARSE_ERRORError"
+pid: 5416
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 14:27:47,264 ERROR 5416 [-/::1/-/2ms POST /user/login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='lili' and password='777'' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from user username='lili' and password='777'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='lili' and password='777'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user username='lili' and password='777'"
+name: "ER_PARSE_ERRORError"
+pid: 5416
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 14:29:13,010 ERROR 5416 [-/::1/-/3ms POST /user/login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='lili' and password='777'' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from user username='lili' and password='777'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='lili' and password='777'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user username='lili' and password='777'"
+name: "ER_PARSE_ERRORError"
+pid: 5416
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 14:37:38,412 ERROR 25040 [-/::1/-/28ms POST /user/registry] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''username', 'password') values ('李','999')' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: insert into user ('username', 'password') values ('李','999')
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''username', 'password') values ('李','999')' at line 1"
+sqlState: "42000"
+index: 0
+sql: "insert into user ('username', 'password') values ('李','999')"
+name: "ER_PARSE_ERRORError"
+pid: 25040
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 14:37:47,479 ERROR 25040 [-/::1/-/2ms POST /user/registry] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''username', 'password') values ('李','999')' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: insert into user ('username', 'password') values ('李','999')
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''username', 'password') values ('李','999')' at line 1"
+sqlState: "42000"
+index: 0
+sql: "insert into user ('username', 'password') values ('李','999')"
+name: "ER_PARSE_ERRORError"
+pid: 25040
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 14:37:48,707 ERROR 25040 [-/::1/-/4ms POST /user/registry] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''username', 'password') values ('李','999')' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: insert into user ('username', 'password') values ('李','999')
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''username', 'password') values ('李','999')' at line 1"
+sqlState: "42000"
+index: 0
+sql: "insert into user ('username', 'password') values ('李','999')"
+name: "ER_PARSE_ERRORError"
+pid: 25040
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 14:46:06,315 ERROR 16260 [-/::1/-/7ms GET /user/del] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id=NULL' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: delete from user id=NULL
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id=NULL' at line 1"
+sqlState: "42000"
+index: 0
+sql: "delete from user id=NULL"
+name: "ER_PARSE_ERRORError"
+pid: 16260
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 14:47:19,297 ERROR 16260 [-/::1/-/4ms GET /user/del] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id=NULL' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: delete from user id=NULL
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id=NULL' at line 1"
+sqlState: "42000"
+index: 0
+sql: "delete from user id=NULL"
+name: "ER_PARSE_ERRORError"
+pid: 16260
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 14:47:23,524 ERROR 2788 [-/::1/-/42ms GET /user/del] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id=NULL' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: delete from user id=NULL
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id=NULL' at line 1"
+sqlState: "42000"
+index: 0
+sql: "delete from user id=NULL"
+name: "ER_PARSE_ERRORError"
+pid: 2788
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 14:47:52,515 ERROR 2788 [-/::1/-/4ms GET /user/del?id=39] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id='39'' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: delete from user id='39'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id='39'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "delete from user id='39'"
+name: "ER_PARSE_ERRORError"
+pid: 2788
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 15:01:26,957 ERROR 22076 [-/::1/-/31ms POST /user/login] nodejs.TypeError: createToken is not a function
+    at UserController.login (C:\Users\user\Desktop\react-egg\server\app\controller\user.js:9:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 22076
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 15:24:40,843 ERROR 31716 [-/::1/-/10ms GET /getList?pagesize=0&pagecount=5] nodejs.TypeError: Cannot read property 'query' of undefined
+    at ListController.getList (C:\Users\user\Desktop\react-egg\server\app\controller\list.js:5:54)
+    at Object.callFn (C:\Users\user\Desktop\react-egg\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\user\Desktop\react-egg\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\user\Desktop\react-egg\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user\Desktop\react-egg\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user\Desktop\react-egg\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\user\Desktop\react-egg\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user\Desktop\react-egg\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 31716
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 15:25:00,121 ERROR 31716 [-/::1/-/5ms GET /getList?pagesize=0&pagecount=5] nodejs.TypeError: Cannot read property 'query' of undefined
+    at ListController.getList (C:\Users\user\Desktop\react-egg\server\app\controller\list.js:5:54)
+    at Object.callFn (C:\Users\user\Desktop\react-egg\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\user\Desktop\react-egg\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\user\Desktop\react-egg\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user\Desktop\react-egg\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user\Desktop\react-egg\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\user\Desktop\react-egg\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user\Desktop\react-egg\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 31716
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 15:25:06,637 ERROR 24352 [-/::1/-/30ms GET /getList?pagesize=0&pagecount=5] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: pagesize
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist limit pagesize='0',pagecount='5'
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: pagesize"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit pagesize='0',pagecount='5'"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 24352
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 15:25:36,154 ERROR 24352 [-/::1/-/2ms GET /getList?pagesize=0&pagecount=5] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: pagesize
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist limit pagesize='0',pagecount='5'
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: pagesize"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit pagesize='0',pagecount='5'"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 24352
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 15:26:10,480 ERROR 17872 [-/::1/-/12ms GET /getList?pagesize=0&pagecount=5] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: pagesize
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist limit pagesize='0',pagecount='5'
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: pagesize"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit pagesize='0',pagecount='5'"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 17872
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 15:27:05,676 ERROR 12832 [-/::1/-/12ms GET /getList?pagesize=0&pagecount=5] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: pagesize
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist limit pagesize='0',pagecount='5'
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: pagesize"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit pagesize='0',pagecount='5'"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 12832
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 15:27:56,767 ERROR 12832 [-/::1/-/3ms GET /getList?pagesize=0&pagecount=5] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: pagesize
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist limit pagesize='0',pagecount='5'
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: pagesize"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit pagesize='0',pagecount='5'"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 12832
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 15:28:03,029 ERROR 2812 [-/::1/-/14ms GET /getList?pagesize=0&pagecount=5] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: pagesize
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist limit pagesize='0',pagecount='5'
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: pagesize"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit pagesize='0',pagecount='5'"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 2812
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 15:28:23,493 ERROR 2812 [-/::1/-/12ms GET /getList?pagesize=0&pagecount=5] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: pagesize
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist limit pagesize='0',pagecount='5'
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: pagesize"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit pagesize='0',pagecount='5'"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 2812
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 15:28:33,381 ERROR 16428 [-/::1/-/13ms GET /getList?pagesize=0&pagecount=5] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: pagesize
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist limit pagesize='0',pagecount='5'
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: pagesize"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit pagesize='0',pagecount='5'"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 16428
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 15:28:51,543 ERROR 16428 [-/::1/-/3ms GET /getList?pagesize=0&pagecount=5] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: pagesize
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist limit pagesize='0',pagecount='5'
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: pagesize"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit pagesize='0',pagecount='5'"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 16428
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 15:28:58,810 ERROR 1052 [-/::1/-/14ms GET /getList?pagesize=0&pagecount=5] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: pagesize
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist limit pagesize='0',pagecount='5'
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: pagesize"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit pagesize='0',pagecount='5'"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 1052
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 15:29:31,028 ERROR 1052 [-/::1/-/12ms GET /getList?pagesize=0&pagecount=5] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: pagesize
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist limit pagesize='0',pagecount='5'
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: pagesize"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit pagesize='0',pagecount='5'"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 1052
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 15:29:59,275 ERROR 26020 [-/::1/-/37ms GET /getList?pagesize=0&pagecount=5] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: pagesize
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist limit pagesize=0,pagecount=5
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: pagesize"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit pagesize=0,pagecount=5"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 26020
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 15:30:25,768 ERROR 3472 [-/::1/-/31ms GET /getList?pagesize=0&pagecount=5] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: pagesize
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist limit pagesize=0,pagecount=5
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: pagesize"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit pagesize=0,pagecount=5"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 3472
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 15:30:55,801 ERROR 3472 [-/::1/-/4ms GET /getList?pagesize=0&pagecount=5] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: pagesize
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist limit pagesize=0,pagecount=5
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: pagesize"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit pagesize=0,pagecount=5"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 3472
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 15:30:58,658 ERROR 3472 [-/::1/-/11ms GET /getList?pagesize=0&pagecount=5] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: pagesize
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist limit pagesize=0,pagecount=5
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: pagesize"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit pagesize=0,pagecount=5"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 3472
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 20:57:32,364 ERROR 27616 [-/127.0.0.1/-/5ms POST /user/login] nodejs.TypeError: Cannot destructure property `id` of 'undefined' or 'null'.
+    at UserController.login (C:\Users\user\Desktop\react-egg\server\app\controller\user.js:8:28)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 27616
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 20:57:57,853 ERROR 27616 [-/127.0.0.1/-/3ms POST /user/login] nodejs.TypeError: Cannot destructure property `id` of 'undefined' or 'null'.
+    at UserController.login (C:\Users\user\Desktop\react-egg\server\app\controller\user.js:8:28)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 27616
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 20:58:55,711 ERROR 27616 [-/127.0.0.1/-/2ms POST /user/login] nodejs.TypeError: Cannot destructure property `id` of 'undefined' or 'null'.
+    at UserController.login (C:\Users\user\Desktop\react-egg\server\app\controller\user.js:8:28)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 27616
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 20:58:58,380 ERROR 27616 [-/127.0.0.1/-/2ms POST /user/login] nodejs.TypeError: Cannot destructure property `id` of 'undefined' or 'null'.
+    at UserController.login (C:\Users\user\Desktop\react-egg\server\app\controller\user.js:8:28)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 27616
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 20:58:59,464 ERROR 27616 [-/127.0.0.1/-/3ms POST /user/login] nodejs.TypeError: Cannot destructure property `id` of 'undefined' or 'null'.
+    at UserController.login (C:\Users\user\Desktop\react-egg\server\app\controller\user.js:8:28)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 27616
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 20:59:00,383 ERROR 27616 [-/127.0.0.1/-/1ms POST /user/login] nodejs.TypeError: Cannot destructure property `id` of 'undefined' or 'null'.
+    at UserController.login (C:\Users\user\Desktop\react-egg\server\app\controller\user.js:8:28)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 27616
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 21:01:55,596 ERROR 27616 [-/127.0.0.1/-/3ms POST /user/login] nodejs.TypeError: Cannot destructure property `id` of 'undefined' or 'null'.
+    at UserController.login (C:\Users\user\Desktop\react-egg\server\app\controller\user.js:8:28)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 27616
+hostname: DESKTOP-U7LRM2N
+
+2019-08-21 21:21:33,124 ERROR 27616 [-/127.0.0.1/-/13ms POST /user/registry] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'username' cannot be null
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: insert into user (username, password) values (NULL,789)
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'username' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "insert into user (username, password) values (NULL,789)"
+name: "ER_BAD_NULL_ERRORError"
+pid: 27616
+hostname: DESKTOP-U7LRM2N
+
+2019-08-22 09:58:18,451 ERROR 29692 [-/127.0.0.1/-/32ms GET /getList] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: undefined
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist limit undefined,undefined
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: undefined"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit undefined,undefined"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 29692
+hostname: DESKTOP-U7LRM2N
+
+2019-08-22 11:05:00,618 ERROR 23992 [-/127.0.0.1/-/2ms GET /getList?pagesize=0&pagecount=5] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\react-egg\server\app\service\user.js:39:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 23992
+hostname: DESKTOP-U7LRM2N
+
+2019-08-22 11:41:15,180 ERROR 27028 [-/127.0.0.1/-/8ms GET /getList] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: undefined
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist limit undefined,undefined
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: undefined"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit undefined,undefined"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 27028
+hostname: DESKTOP-U7LRM2N
+
+2019-08-22 11:41:16,459 ERROR 27028 [-/127.0.0.1/-/5ms GET /getList] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: undefined
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist limit undefined,undefined
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: undefined"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit undefined,undefined"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 27028
+hostname: DESKTOP-U7LRM2N
+
+2019-08-22 11:41:56,808 ERROR 27028 [-/127.0.0.1/-/7ms GET /getList] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: undefined
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist limit undefined,undefined
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: undefined"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit undefined,undefined"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 27028
+hostname: DESKTOP-U7LRM2N
+
+2019-08-22 11:41:57,695 ERROR 27028 [-/127.0.0.1/-/5ms GET /getList] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: undefined
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist limit undefined,undefined
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: undefined"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit undefined,undefined"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 27028
+hostname: DESKTOP-U7LRM2N
+
+2019-08-22 11:43:29,731 ERROR 27028 [-/127.0.0.1/-/6ms GET /getList] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: undefined
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist limit undefined,undefined
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: undefined"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit undefined,undefined"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 27028
+hostname: DESKTOP-U7LRM2N
+
+2019-08-22 11:43:30,409 ERROR 27028 [-/127.0.0.1/-/7ms GET /getList] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: undefined
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist limit undefined,undefined
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: undefined"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit undefined,undefined"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 27028
+hostname: DESKTOP-U7LRM2N
+
+2019-08-22 11:43:31,035 ERROR 27028 [-/127.0.0.1/-/5ms GET /getList] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: undefined
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist limit undefined,undefined
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: undefined"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit undefined,undefined"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 27028
+hostname: DESKTOP-U7LRM2N
+
+2019-08-22 11:43:31,384 ERROR 27028 [-/127.0.0.1/-/6ms GET /getList] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: undefined
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist limit undefined,undefined
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: undefined"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit undefined,undefined"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 27028
+hostname: DESKTOP-U7LRM2N
+
+2019-08-22 11:43:31,512 ERROR 27028 [-/127.0.0.1/-/5ms GET /getList] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: undefined
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist limit undefined,undefined
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: undefined"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit undefined,undefined"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 27028
+hostname: DESKTOP-U7LRM2N
+
+2019-08-22 11:43:31,638 ERROR 27028 [-/127.0.0.1/-/5ms GET /getList] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: undefined
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist limit undefined,undefined
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: undefined"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit undefined,undefined"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 27028
+hostname: DESKTOP-U7LRM2N
+
+2019-08-22 11:43:31,731 ERROR 27028 [-/127.0.0.1/-/5ms GET /getList] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: undefined
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist limit undefined,undefined
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: undefined"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit undefined,undefined"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 27028
+hostname: DESKTOP-U7LRM2N
+
+2019-08-22 11:43:31,818 ERROR 27028 [-/127.0.0.1/-/4ms GET /getList] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: undefined
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist limit undefined,undefined
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: undefined"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist limit undefined,undefined"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 27028
+hostname: DESKTOP-U7LRM2N
+
+2019-08-22 11:53:35,527 ERROR 27028 [-/127.0.0.1/-/1ms GET /getList?pagesize=0&pagecount=5] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\react-egg\server\app\service\user.js:39:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 27028
+hostname: DESKTOP-U7LRM2N
+
+2019-08-22 11:57:44,702 ERROR 27028 [-/127.0.0.1/-/1ms GET /getList?pagesize=0&pagecount=5] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\react-egg\server\app\service\user.js:39:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 27028
+hostname: DESKTOP-U7LRM2N
+
+2019-08-22 11:58:39,823 ERROR 27028 [-/127.0.0.1/-/1ms GET /getList?pagesize=0&pagecount=5] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\react-egg\server\app\service\user.js:39:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 27028
+hostname: DESKTOP-U7LRM2N
+
+2019-08-22 11:58:45,277 ERROR 27028 [-/127.0.0.1/-/1ms GET /getList?pagesize=0&pagecount=5] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\react-egg\server\app\service\user.js:39:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 27028
+hostname: DESKTOP-U7LRM2N
+
+2019-08-22 16:50:09,940 ERROR 14656 [-/::1/-/10ms GET /detail?id=5] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=5' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist id=5
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=5' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist id=5"
+name: "ER_PARSE_ERRORError"
+pid: 14656
+hostname: DESKTOP-U7LRM2N
+
+2019-08-22 16:50:54,977 ERROR 14656 [-/::1/-/1ms GET /detail?id=5] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=5' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist id=5
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=5' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist id=5"
+name: "ER_PARSE_ERRORError"
+pid: 14656
+hostname: DESKTOP-U7LRM2N
+
+2019-08-22 16:51:09,223 ERROR 9356 [-/::1/-/10ms GET /detail?id=5] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=5' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist id=5
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=5' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist id=5"
+name: "ER_PARSE_ERRORError"
+pid: 9356
+hostname: DESKTOP-U7LRM2N
+
+2019-08-22 16:51:31,041 ERROR 9356 [-/::1/-/3ms GET /detail?id=5] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=5' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist id=5
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=5' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist id=5"
+name: "ER_PARSE_ERRORError"
+pid: 9356
+hostname: DESKTOP-U7LRM2N
+
+2019-08-22 16:59:03,797 ERROR 11312 [-/127.0.0.1/-/2ms GET /getList?pagesize=0&pagecount=5] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\react-egg\server\app\service\user.js:39:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 11312
+hostname: DESKTOP-U7LRM2N
+
+2019-08-22 19:29:55,903 ERROR 26336 [-/::1/-/8ms GET /val?val=%E6%9D%8E] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%李%' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist where title like %李%
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%李%' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist where title like %李%"
+name: "ER_PARSE_ERRORError"
+pid: 26336
+hostname: DESKTOP-U7LRM2N
+
+2019-08-22 19:30:30,218 ERROR 8168 [-/::1/-/8ms GET /val?val=%E6%9D%8E] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%李%' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist where title like %李%
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%李%' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist where title like %李%"
+name: "ER_PARSE_ERRORError"
+pid: 8168
+hostname: DESKTOP-U7LRM2N
+
+2019-08-22 19:30:48,535 ERROR 8168 [-/::1/-/2ms GET /val?val=%E6%9D%8E] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%李%' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist where title like %李%
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%李%' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from productlist where title like %李%"
+name: "ER_PARSE_ERRORError"
+pid: 8168
+hostname: DESKTOP-U7LRM2N
+
+2019-08-22 20:32:49,326 ERROR 14192 [-/127.0.0.1/-/5ms GET /getList?pagesize=0&pagecount=5] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\react-egg\server\app\service\user.js:39:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14192
+hostname: DESKTOP-U7LRM2N
+
+2019-08-26 20:26:33,402 ERROR 7616 [-/127.0.0.1/-/6ms GET /getList?pagesize=0&pagecount=5] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\react-egg\server\app\service\user.js:39:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 7616
+hostname: DESKTOP-U7LRM2N
+
+2019-08-26 20:26:34,929 ERROR 7616 [-/127.0.0.1/-/5ms GET /getList?pagesize=0&pagecount=5] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.verify (C:\Users\user\Desktop\react-egg\server\app\service\user.js:39:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 7616
+hostname: DESKTOP-U7LRM2N
+
+2019-08-26 20:50:40,618 ERROR 17668 [-/127.0.0.1/-/7ms GET /note] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productlist where num!=0' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * productlist where num!=0
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productlist where num!=0' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * productlist where num!=0"
+name: "ER_PARSE_ERRORError"
+pid: 17668
+hostname: DESKTOP-U7LRM2N
+
+2019-08-26 20:51:09,984 ERROR 17668 [-/127.0.0.1/-/1ms GET /note] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productlist where num!=0' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\react-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\react-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\react-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\react-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * productlist where num!=0
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productlist where num!=0' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * productlist where num!=0"
+name: "ER_PARSE_ERRORError"
+pid: 17668
+hostname: DESKTOP-U7LRM2N
+

@@ -1,0 +1,951 @@
+2019-08-23 09:01:09,130 ERROR 28052 [-/::1/-/194ms POST /login] nodejs.TypeError: ctx.service.cunToken is not a function
+    at UserController.login (C:\Users\user\Desktop\0823rikao\server\app\controller\user.js:11:27)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 28052
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 09:01:36,091 ERROR 28052 [-/::1/-/6ms POST /login] nodejs.TypeError: ctx.service.cunToken is not a function
+    at UserController.login (C:\Users\user\Desktop\0823rikao\server\app\controller\user.js:11:27)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 28052
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 13:12:49,611 ERROR 30676 nodejs.ClusterClientNoResponseError: client no response in 10812768ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\user\Desktop\0823rikao\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 30676
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 13:59:06,852 ERROR 30676 nodejs.ClusterClientNoResponseError: client no response in 2773586ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\user\Desktop\0823rikao\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 30676
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 15:08:52,482 ERROR 6236 [-/127.0.0.1/-/54ms POST /login] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.cunToken (C:\Users\user\Desktop\0823rikao\server\app\service\user.js:11:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 6236
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 15:09:18,241 ERROR 6236 [-/::1/-/6ms POST /login] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.cunToken (C:\Users\user\Desktop\0823rikao\server\app\service\user.js:11:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 6236
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 15:09:28,079 ERROR 6236 [-/::1/-/3ms POST /login] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.cunToken (C:\Users\user\Desktop\0823rikao\server\app\service\user.js:11:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 6236
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 15:09:43,091 ERROR 6236 [-/::1/-/3ms POST /login] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.cunToken (C:\Users\user\Desktop\0823rikao\server\app\service\user.js:11:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 6236
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 15:10:39,252 ERROR 14072 [-/127.0.0.1/-/44ms POST /login] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.cunToken (C:\Users\user\Desktop\0823rikao\server\app\service\user.js:11:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14072
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 15:12:02,508 ERROR 24780 [-/127.0.0.1/-/29ms POST /login] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.cunToken (C:\Users\user\Desktop\0823rikao\server\app\service\user.js:12:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 24780
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 15:13:23,654 ERROR 24552 [-/::1/-/38ms POST /login] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.cunToken (C:\Users\user\Desktop\0823rikao\server\app\service\user.js:12:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 24552
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 15:14:22,422 ERROR 24552 [-/127.0.0.1/-/12ms POST /login] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.cunToken (C:\Users\user\Desktop\0823rikao\server\app\service\user.js:12:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 24552
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 15:15:41,725 ERROR 31692 [-/127.0.0.1/-/14ms POST /login] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.cunToken (C:\Users\user\Desktop\0823rikao\server\app\service\user.js:12:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 31692
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 15:15:58,161 ERROR 31692 [-/::1/-/8ms POST /login] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.cunToken (C:\Users\user\Desktop\0823rikao\server\app\service\user.js:12:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 31692
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 15:16:59,995 ERROR 31692 [-/::1/-/3ms POST /login] nodejs.TypeError: Cannot destructure property `id` of 'undefined' or 'null'.
+    at UserController.login (C:\Users\user\Desktop\0823rikao\server\app\controller\user.js:9:30)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 31692
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 15:17:18,694 ERROR 31692 [-/::1/-/5ms POST /login] nodejs.TypeError: Cannot read property 'token' of undefined
+    at UserService.cunToken (C:\Users\user\Desktop\0823rikao\server\app\service\user.js:12:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 31692
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 15:19:08,377 ERROR 10664 [-/127.0.0.1/-/3ms POST /login] nodejs.TypeError: Cannot destructure property `id` of 'undefined' or 'null'.
+    at UserController.login (C:\Users\user\Desktop\0823rikao\server\app\controller\user.js:9:30)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 10664
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 15:20:56,077 ERROR 10664 [-/127.0.0.1/-/2ms POST /login] nodejs.TypeError: Cannot destructure property `id` of 'undefined' or 'null'.
+    at UserController.login (C:\Users\user\Desktop\0823rikao\server\app\controller\user.js:9:30)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 10664
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 15:54:40,147 ERROR 10664 [-/127.0.0.1/-/6ms POST /login] nodejs.TypeError: Cannot destructure property `id` of 'undefined' or 'null'.
+    at UserController.login (C:\Users\user\Desktop\0823rikao\server\app\controller\user.js:9:30)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 10664
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 16:41:44,980 ERROR 24204 [-/::1/-/32ms GET /godetail] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\0823rikao\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\0823rikao\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\0823rikao\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist where id=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from productlist where id=undefined"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 24204
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 16:42:38,039 ERROR 24204 [-/::1/-/2ms GET /godetail] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\0823rikao\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\0823rikao\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\0823rikao\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from productlist where id=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from productlist where id=undefined"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 24204
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 17:18:51,046 ERROR 24204 [-/127.0.0.1/-/2ms POST /login] nodejs.TypeError: Cannot destructure property `id` of 'undefined' or 'null'.
+    at UserController.login (C:\Users\user\Desktop\0823rikao\server\app\controller\user.js:9:30)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 24204
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 17:21:07,332 ERROR 24204 [-/127.0.0.1/-/1ms POST /login] nodejs.TypeError: Cannot destructure property `id` of 'undefined' or 'null'.
+    at UserController.login (C:\Users\user\Desktop\0823rikao\server\app\controller\user.js:9:30)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 24204
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 19:25:39,638 ERROR 12184 nodejs.ClusterClientNoResponseError: client no response in 3328484ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\user\Desktop\0823rikao\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 12184
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 19:42:39,575 ERROR 22136 [-/127.0.0.1/-/3ms GET /godetail?id=2] nodejs.TypeError: ctx.service.list.getToken is not a function
+    at auth (C:\Users\user\Desktop\0823rikao\server\app\middleware\auth.js:11:51)
+    at dispatch (C:\Users\user\Desktop\0823rikao\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\user\Desktop\0823rikao\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user\Desktop\0823rikao\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\user\Desktop\0823rikao\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\user\Desktop\0823rikao\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\user\Desktop\0823rikao\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 22136
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 19:42:42,290 ERROR 22136 [-/127.0.0.1/-/1ms GET /godetail?id=11] nodejs.TypeError: ctx.service.list.getToken is not a function
+    at auth (C:\Users\user\Desktop\0823rikao\server\app\middleware\auth.js:11:51)
+    at dispatch (C:\Users\user\Desktop\0823rikao\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\user\Desktop\0823rikao\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user\Desktop\0823rikao\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\user\Desktop\0823rikao\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\user\Desktop\0823rikao\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\user\Desktop\0823rikao\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 22136
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 19:42:51,124 ERROR 22136 [-/127.0.0.1/-/0ms GET /godetail?id=9] nodejs.TypeError: ctx.service.list.getToken is not a function
+    at auth (C:\Users\user\Desktop\0823rikao\server\app\middleware\auth.js:11:51)
+    at dispatch (C:\Users\user\Desktop\0823rikao\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\user\Desktop\0823rikao\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user\Desktop\0823rikao\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\user\Desktop\0823rikao\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\user\Desktop\0823rikao\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\user\Desktop\0823rikao\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 22136
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 19:45:43,506 ERROR 14516 [-/::1/-/2ms GET /getlist] nodejs.TypeError: ctx.service.list.getToken is not a function
+    at auth (C:\Users\user\Desktop\0823rikao\server\app\middleware\auth.js:12:51)
+    at dispatch (C:\Users\user\Desktop\0823rikao\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\user\Desktop\0823rikao\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user\Desktop\0823rikao\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\user\Desktop\0823rikao\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\user\Desktop\0823rikao\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\user\Desktop\0823rikao\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 14516
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 19:46:52,125 ERROR 14516 [-/::1/-/3ms GET /getlist] nodejs.TypeError: ctx.service.list.getToken is not a function
+    at auth (C:\Users\user\Desktop\0823rikao\server\app\middleware\auth.js:12:51)
+    at dispatch (C:\Users\user\Desktop\0823rikao\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\user\Desktop\0823rikao\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user\Desktop\0823rikao\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\user\Desktop\0823rikao\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\user\Desktop\0823rikao\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\user\Desktop\0823rikao\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 14516
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 20:00:53,682 ERROR 6744 [-/127.0.0.1/-/11ms GET /getlist] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\0823rikao\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\0823rikao\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\0823rikao\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from user where id=[object Object]
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where id=[object Object]"
+name: "ER_PARSE_ERRORError"
+pid: 6744
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 20:00:59,627 ERROR 6744 [-/127.0.0.1/-/2ms GET /getlist] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\0823rikao\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\0823rikao\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\0823rikao\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from user where id=[object Object]
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where id=[object Object]"
+name: "ER_PARSE_ERRORError"
+pid: 6744
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 20:01:39,356 ERROR 15428 [-/127.0.0.1/-/8ms GET /getlist] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\0823rikao\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\0823rikao\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\0823rikao\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from user where id=[object Object]
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where id=[object Object]"
+name: "ER_PARSE_ERRORError"
+pid: 15428
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 20:01:48,779 ERROR 15428 [-/127.0.0.1/-/3ms GET /getlist] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\0823rikao\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\0823rikao\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\0823rikao\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from user where id=[object Object]
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where id=[object Object]"
+name: "ER_PARSE_ERRORError"
+pid: 15428
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 20:01:53,128 ERROR 15428 [-/127.0.0.1/-/7ms GET /getlist] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\0823rikao\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\0823rikao\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\0823rikao\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from user where id=[object Object]
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where id=[object Object]"
+name: "ER_PARSE_ERRORError"
+pid: 15428
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 20:03:43,046 ERROR 28116 [-/127.0.0.1/-/3ms GET /getlist] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\0823rikao\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\0823rikao\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\0823rikao\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from user where id=[object Object]
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where id=[object Object]"
+name: "ER_PARSE_ERRORError"
+pid: 28116
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 20:03:54,300 ERROR 28116 [-/127.0.0.1/-/1ms GET /getlist] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\0823rikao\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\0823rikao\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\0823rikao\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from user where id=[object Object]
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where id=[object Object]"
+name: "ER_PARSE_ERRORError"
+pid: 28116
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 20:04:02,392 ERROR 28116 [-/127.0.0.1/-/3ms GET /getlist] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\0823rikao\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\0823rikao\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\0823rikao\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from user where id=[object Object]
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where id=[object Object]"
+name: "ER_PARSE_ERRORError"
+pid: 28116
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 20:10:35,706 ERROR 28116 [-/127.0.0.1/-/7ms GET /getlist] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\0823rikao\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\0823rikao\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\0823rikao\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from user where id=[object Object]
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where id=[object Object]"
+name: "ER_PARSE_ERRORError"
+pid: 28116
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 20:13:05,441 ERROR 28116 [-/127.0.0.1/-/2ms GET /getlist] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\0823rikao\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\0823rikao\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\0823rikao\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from user where id=[object Object]
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where id=[object Object]"
+name: "ER_PARSE_ERRORError"
+pid: 28116
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 20:15:51,794 ERROR 28116 [-/127.0.0.1/-/1ms GET /getlist] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\0823rikao\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\0823rikao\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\0823rikao\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from user where id=[object Object]
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where id=[object Object]"
+name: "ER_PARSE_ERRORError"
+pid: 28116
+hostname: DESKTOP-U7LRM2N
+
+2019-08-23 20:15:56,246 ERROR 28116 [-/127.0.0.1/-/1ms GET /getlist] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\0823rikao\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\0823rikao\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\0823rikao\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\0823rikao\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\0823rikao\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\0823rikao\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from user where id=[object Object]
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where id=[object Object]"
+name: "ER_PARSE_ERRORError"
+pid: 28116
+hostname: DESKTOP-U7LRM2N
+
+2019-08-24 08:55:13,056 ERROR 18356 [-/127.0.0.1/-/7ms GET /getlist] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\vue-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\vue-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\vue-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\vue-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\vue-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\vue-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\vue-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from user where id=[object Object]
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where id=[object Object]"
+name: "ER_PARSE_ERRORError"
+pid: 18356
+hostname: DESKTOP-U7LRM2N
+
+2019-08-24 09:48:09,985 ERROR 26352 [-/::1/-/32ms GET /count] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\vue-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\vue-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\vue-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\vue-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\vue-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\vue-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\vue-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: update productlist set num=undefined where id=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "update productlist set num=undefined where id=undefined"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 26352
+hostname: DESKTOP-U7LRM2N
+
+2019-08-24 09:48:25,345 ERROR 26352 [-/::1/-/4ms GET /count?id=5$num=10] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column '5$num' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\vue-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\vue-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\vue-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\vue-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\vue-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\vue-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\vue-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: update productlist set num=undefined where id=5$num=10
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column '5$num' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "update productlist set num=undefined where id=5$num=10"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 26352
+hostname: DESKTOP-U7LRM2N
+
+2019-08-24 09:49:21,805 ERROR 26352 [-/::1/-/2ms GET /count?id=5$num=10] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column '5$num' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\vue-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\vue-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\vue-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\vue-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\vue-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\vue-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\vue-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: update productlist set num=undefined where id=5$num=10
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column '5$num' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "update productlist set num=undefined where id=5$num=10"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 26352
+hostname: DESKTOP-U7LRM2N
+
+2019-08-24 09:49:26,687 ERROR 11616 [-/::1/-/11ms GET /count?id=5$num=10] nodejs.ER_TRUNCATED_WRONG_VALUEError: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: '5$num=10'
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\vue-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\vue-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\vue-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\vue-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\vue-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\vue-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\vue-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: update productlist set num=NULL where id='5$num=10'
+code: "ER_TRUNCATED_WRONG_VALUE"
+errno: 1292
+sqlMessage: "Truncated incorrect DOUBLE value: '5$num=10'"
+sqlState: "22007"
+index: 0
+sql: "update productlist set num=NULL where id='5$num=10'"
+name: "ER_TRUNCATED_WRONG_VALUEError"
+pid: 11616
+hostname: DESKTOP-U7LRM2N
+
+2019-08-24 10:01:43,433 ERROR 11616 [-/127.0.0.1/-/13ms GET /getlist] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\vue-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\vue-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\vue-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\vue-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\vue-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\vue-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\vue-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from user where id=[object Object]
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where id=[object Object]"
+name: "ER_PARSE_ERRORError"
+pid: 11616
+hostname: DESKTOP-U7LRM2N
+
+2019-08-24 15:00:15,841 ERROR 26340 nodejs.ClusterClientNoResponseError: client no response in 10804907ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\user\Desktop\vue-egg\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 26340
+hostname: DESKTOP-U7LRM2N
+
+2019-08-24 15:31:08,808 ERROR 26340 nodejs.ClusterClientNoResponseError: client no response in 1846742ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\user\Desktop\vue-egg\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 26340
+hostname: DESKTOP-U7LRM2N
+
+2019-08-26 19:00:21,980 ERROR 8348 [-/127.0.0.1/-/12ms GET /getlist] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1
+    at Query.Sequence._packetToError (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\user\Desktop\vue-egg\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\user\Desktop\vue-egg\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\user\Desktop\vue-egg\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\user\Desktop\vue-egg\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\user\Desktop\vue-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\user\Desktop\vue-egg\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\user\Desktop\vue-egg\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\user\Desktop\vue-egg\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from user where id=[object Object]
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where id=[object Object]"
+name: "ER_PARSE_ERRORError"
+pid: 8348
+hostname: DESKTOP-U7LRM2N
+
